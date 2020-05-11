@@ -119,9 +119,9 @@ def printing(words, lines):
             if(find(words[i], lines[j]) > 0):
                 base = words[i].upper() + create_spaces(max_len, words[i]) +str(lines[j]) + " (" + str(j+1)
                 if(find(words[i], lines[j]) == 1):
-                    print base + ")"
+                    print (base + ")")
                 elif(find(words[i], lines[j]) > 1):
-                    print base + "*)"
+                    print (base + "*)")
 
 
 #main function
